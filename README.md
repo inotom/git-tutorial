@@ -4,6 +4,8 @@ git tutorial environment with Docker
 
 ## versions
 
+inotom/git-tutorial:4
+
 inotom/git-tutorial:3
 
 inotom/git-tutorial:2
