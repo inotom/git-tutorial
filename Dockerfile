@@ -9,7 +9,7 @@ ENV \
 
 RUN \
   apt-get update \
-  && apt-get install -y tzdata git vim curl sudo language-pack-ja-base language-pack-ja \
+  && apt-get install -y tzdata git vim curl sudo nano language-pack-ja-base language-pack-ja \
   && apt-get clean \
   && useradd --user-group --create-home --shell /bin/false app \
   && echo "app ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
